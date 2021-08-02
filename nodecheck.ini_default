@@ -1,0 +1,16 @@
+[DEFAULT]
+
+# Set to yes for fairly verbose logging to file, no for no logging at all
+LOGGING = yes
+
+# The full https url of your node
+URL= https://
+
+# if for some reason you want to use an actual node api key, enter it here, otherwise this is the default way of checking status of a node without having a key
+NODEKEY = check-status-key
+
+[MAIL]
+FROM = Idena Public Node Checker <your_from@email.com>
+TO = Your name <your@email.com>
+# Mail server, only works with no authentication and no encryption - meant to be used only with a localhost MTA
+SERVER = localhost 
