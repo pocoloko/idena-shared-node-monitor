@@ -2,7 +2,9 @@
 
 This monitor was created for my [Idena public shared node setup guide using your own SSL termination](https://github.com/pocoloko/idena-shared-node)
 
-The e-mail alerts work only with a localhost MTA without authentification or encryption
+Since we are checking the response of the end node, an alert from this script could mean anything in the HAProxy -> idena-node-proxy -> idena-go node chain could be the culprit for the alert.
+
+WARNING: The e-mail alerts work only with a localhost MTA without authentification or encryption
 
 Usage:
 
