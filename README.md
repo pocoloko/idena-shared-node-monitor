@@ -1,4 +1,4 @@
-# remote monitor for idena public shared node
+# Remote monitor for idena public shared node
 
 This monitor was created for my [Idena public shared node setup guide using your own SSL termination](https://github.com/pocoloko/idena-shared-node), it is meant to run on a remote server, not the one where the node is running as that wouldn't provide proper monitoring.
 
