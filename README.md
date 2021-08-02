@@ -10,7 +10,7 @@ Usage:
 
 1. clone this repo
 2. make sure you have the [requests python library](https://docs.python-requests.org/en/master/) installed
-3. rename nodecheck.ini_default to nodecheck.ini
+3. rename `nodecheck.ini_default` to `nodecheck.ini`
 4. edit nodecheck.ini with the address of the node you wish to monitor and the email for the alerts
 5. set up a cron job to run the script at whatever interval you feel comfortable with.
 
