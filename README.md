@@ -4,6 +4,8 @@ This monitor was created for my [Idena public shared node setup guide using your
 
 Since we are checking the response of the end node, an alert from this script could mean anything in the `HAProxy -> idena-node-proxy -> idena-go node` chain could be the culprit for the alert.
 
+If you receive an email with `EXCEPTION DETECTED : HTTPSConnectionPool(host='blabla.bla', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(': Failed to establish a new connection: [Errno -2] Name or service not known'))` it could mean there is a network issue between the server you are checking from and your node. Check for packet loss using something like `mtr`.
+
 WARNING: The e-mail alerts work only with a localhost MTA without authentification or encryption
 
 Usage:
