@@ -49,7 +49,7 @@ def check_node(url, the_params):
 
 # composing email for later sending, used only if node check is not OK
 def compose_email(the_results):
-    email_data = '<br>' #empty string for email data
+    email_data = "Your shared node is <b>OFFLINE</b>, please check it ASAP<br>"
     email_data += (the_results)
     logging.info('Composed email data')
     return email_data
