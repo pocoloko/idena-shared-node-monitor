@@ -1,5 +1,7 @@
 # Remote monitor for idena public shared node
 
+![Screenshot](screenshot_nodewatch.png)
+
 This monitor was created for my [Idena public shared node setup guide using your own SSL termination](https://github.com/pocoloko/idena-shared-node), it is meant to run on a remote server, not the one where the node is running as that wouldn't provide proper monitoring.
 
 Since we are checking the response of the end node, an alert from this script could mean anything in the `HAProxy -> idena-node-proxy -> idena-go node` chain could be the culprit for the alert.
