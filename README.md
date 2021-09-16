@@ -19,3 +19,6 @@ Usage:
 5. set up a cron job to run the script at whatever interval you feel comfortable with. For example: `*/15 * * * * cd /home/itsme/idena-shared-node-monitor/ && ./nodecheck.py`
 
 If you encounter any issues please double-check the configuration as no error checks are performed on the configuration parameters
+
+---
+Found this script useful? I accept iDNA donations to address `0x8dc26a6fbdbe2fdb8b5284ab55f56e720b3c42ad`
